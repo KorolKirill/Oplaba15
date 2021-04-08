@@ -1,4 +1,4 @@
-package op.laba15.Oplaba15;
+package Laba16;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -24,7 +24,7 @@ public class PreCalculatorServlet extends HttpServlet {
                 "    <title lang=\"ru\">Lab-16 Team-1</title>\n" +
                 "</head>\n" +
                 "<body>\n" +
-                "    <form action=\"CalculatorServlet\">\n" +
+                "    <form action=\"CalculatorServlet\" method=\"post\">\n" +
                 "        <label for=\"a\">A:</label> <input type=\"text\" id=\"a\" name=\"a\" value=\"%s\"><br>\n" +
                 "        <label for=\"b\">B:</label> <input type=\"text\" id=\"b\" name=\"b\" value=\"%s\"><br>\n" +
                 "        <label for=\"c\">C:</label> <input type=\"text\" id=\"c\" name=\"c\" value=\"%s\"><br>\n" +
